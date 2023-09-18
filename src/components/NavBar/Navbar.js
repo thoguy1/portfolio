@@ -17,8 +17,15 @@ const Navbar = () => {
         <Link activeClass="active" to="contactPage" spy={true} smooth="true" offset={-50} duration={500} className="desktopMenuListItem">Documents</Link>
       </div>
       <button className="desktopMenuBtn" onClick={() => {
-        document.querySelector('#contact').scrollIntoView({behavior: 'smooth'});
-      }}>
+          const contactElement = document.querySelector('#contact');
+          if (contactElement) {
+              const targetPosition = contactElement.offsetTop - 80;
+              window.scrollTo({
+                  top: targetPosition,
+                  behavior: 'smooth',
+              });
+          }
+        }}>
         <img src={contactImg} alt="" className="desktopMenuImg"/>
         Contact Me
       </button>
