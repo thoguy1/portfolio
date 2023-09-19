@@ -28,7 +28,7 @@ function Projects() {
         </div>
         <div className="projectRow">
           <a href="https://thoguy1.github.io/movie-search-db/" target="_blank"><img src={Project3_Img} alt="movie-search" className="projectsImg" /> </a>
-          <p>This is a movie search web app that I built as a week 7 project. It lets the user to search movies by entering the movie names or parts of names. I fetches the data from TMDB API using AXIOS library.</p>
+          <p>This is a movie search web app that I built as a week 7 project. It lets the user to search movies by entering the movie names or parts of names. I fetches the data from TMDB API using AXIOS library. On week 8, we were required to recreate our movie search app on ReactJS as our project. This is the <a href="https://movie-search-db-react.netlify.app/" target="_blank">React version</a> of this project.</p>
         </div>
         <div className="projectRow">
           <a href="https://thoguy1.github.io/weather-app/" target="_blank"><img src={Project4_Img} alt="" className="projectsImg" /> </a>
