@@ -3,12 +3,13 @@ import './skills.css';
 import Html_css from '../../assets/html_css.png';
 import JavaScript from '../../assets/javascript.png';
 import ReactLogo from '../../assets/react.png';
+import NodeLogo from '../../assets/node.webp';
 
 function Skills() {
   return (
     <section id="skills">
       <span className="skillTitle">What I do</span>
-      <span className="skillDesc">I am a graduate front end web developer with strong problem-solving skill with a commitment to continuous learning and staying abreast of emerging technologies in the field of web development.</span>
+      <span className="skillDesc">I am a graduate JavaScript developer with strong problem-solving skill with a commitment to continuous learning and staying abreast of emerging technologies in the field of web development.</span>
       <div className="skillBars">
         <div className="skillBar">
           <img src={Html_css} alt="HTML_CSS" className="skillBarImg" />
@@ -29,6 +30,13 @@ function Skills() {
           <div className="skillBarText">
             <h2>React JS</h2>
             <p>Understanding of one of the most popular JavaScript frameworks and libraries such as React to build dynamic and interactive user interfaces and front-end applications.</p>
+          </div>
+        </div>
+        <div className="skillBar">
+          <img src={NodeLogo} alt="Node_Express_MongoDB" className="skillBarImg" />
+          <div className="skillBarText">
+            <h2>Node JS</h2>
+            <p>Knowledgeable in utilising Node.js, Express.js, and MongoDB to build server-side applications, RESTful APIs, and handling database operations.</p>
           </div>
         </div>
       </div>
